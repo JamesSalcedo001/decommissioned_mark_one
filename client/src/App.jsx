@@ -5,6 +5,10 @@ function App() {
 
   return (
     <div>
+      <Routes>
+        <Route path="/test" element={<h1>test route</h1>}/>
+        <Route path="/" element={<h1>Hello</h1>}/>
+      </Routes>
 
     </div>
   )

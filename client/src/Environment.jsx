@@ -1,26 +1,39 @@
+import Accordion from "./Accordion";
+
 const Environment = () => {
     return (
         <div>
             <h1>Environment Setup Here</h1>
+
             <ul>
-                <li>Ruby</li>
-                <li>Rails</li>
-                <li>RVM</li>
-                <li>Rack</li>
-                <li>Rake</li>
-                <li>Sinatra</li>
-                <li>ActiveRecord</li>
 
-                <li>NPM</li>
-                <li>NVM</li>
-                <li>Node.js</li>
+                <Accordion title="Basic">
+                    <p>Bundler</p>
+                    <p>Homebrew</p>
+                    <p>Visual Studio Code</p>
+                </Accordion>
 
-                <li>PostgreSQL</li>
-                <li>SQLite</li>
+                <Accordion title="Ruby">
+                    <p>Ruby</p>
+                    <p>Rails</p>
+                    <p>RVM</p>
+                    <p>Sinatra</p>
+                </Accordion>
 
-                <li>Bundler</li>
-                <li>Homebrew</li>
-                <li>Visual Studio Code</li>
+                <Accordion title="Python">
+                    
+                </Accordion>
+
+                <Accordion title="Node">
+                    <p>NVM</p>
+                    <p>Node.js</p>
+                </Accordion>
+
+                <Accordion title="Database">
+                    <p>PostgreSQL</p>
+                    <p>SQLite</p>
+                </Accordion>
+                
             </ul>
         </div>
     )

@@ -5,3 +5,9 @@ body {
   margin-left: 18%;
   margin-right: 18%;
 }
+
+section {
+  background-color: rgb(24, 123, 209);
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+}

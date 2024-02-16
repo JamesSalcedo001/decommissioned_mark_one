@@ -1,6 +1,7 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Environment from './Environment'
+import Home from './Home'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/environment" element={<Environment />}/>
-        <Route path="/" element={<h1>Hello</h1>}/>
+        <Route path="/" element={<Home />}/>
       </Routes>
 
     </div>

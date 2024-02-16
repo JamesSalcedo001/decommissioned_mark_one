@@ -10,6 +10,11 @@ function App() {
   return (
     <div>
       <section>
+        <h1>Home Section</h1>
+        <p> Here I will go over purpose of site, about the creator etc </p>
+      </section>
+
+      <section>
         <h1>Environment Section</h1>
         <p> Here I will talk about how to set up the environment </p>
       </section>
@@ -51,6 +56,8 @@ function App() {
           <p>talking about Ruby on Rails here blah blah blah</p>
         </div>
       </section>
+
+      <section></section>
 
     </div>
   )

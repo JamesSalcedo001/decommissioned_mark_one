@@ -1,12 +1,13 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
+import Environment from './Environment'
 
 function App() {
 
   return (
     <div>
       <Routes>
-        <Route path="/test" element={<h1>test route</h1>}/>
+        <Route path="/environment" element={<Environment />}/>
         <Route path="/" element={<h1>Hello</h1>}/>
       </Routes>
 

@@ -1,4 +1,6 @@
 import Accordion from "./Accordion";
+import Basic from "./Environment/Basic";
+
 
 const Environment = () => {
     return (
@@ -8,9 +10,7 @@ const Environment = () => {
             <ul>
 
                 <Accordion title="Basic">
-                    <p>Bundler</p>
-                    <p>Homebrew</p>
-                    <p>Visual Studio Code</p>
+                    <Basic/>
                 </Accordion>
 
                 <Accordion title="Ruby">
@@ -21,7 +21,7 @@ const Environment = () => {
                 </Accordion>
 
                 <Accordion title="Python">
-                    
+                    <p>Python</p>
                 </Accordion>
 
                 <Accordion title="Node">

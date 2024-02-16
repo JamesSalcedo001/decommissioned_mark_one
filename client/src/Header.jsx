@@ -9,7 +9,7 @@ const Header = () => {
             <NavLink to="/environment">
                 <button>Environment</button>
             </NavLink>
-            <NavLink>
+            <NavLink to="/languages">
                 <button>Languages</button>
             </NavLink>
             <NavLink>

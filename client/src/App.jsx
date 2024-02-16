@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div>
+      <Navigation />
       <Routes>
         <Route path="/environment" element={<Environment />}/>
         <Route path="/" element={<Home />}/>

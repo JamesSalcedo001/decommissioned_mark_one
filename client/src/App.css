@@ -10,4 +10,6 @@ section {
   background-color: rgb(24, 123, 209);
   margin-bottom: 3vh;
   margin-top: 2vh;
+  border-radius: 3em;
+  padding: 1em;
 }

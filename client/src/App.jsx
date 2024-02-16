@@ -4,6 +4,7 @@ import './App.css'
 // import Header from './Header'
 // import Environment from './Environment'
 // import Languages from './Languages'
+import Accordion from './Accordion'
 
 function App() {
 
@@ -17,6 +18,20 @@ function App() {
       <section>
         <h1>Environment Section</h1>
         <p> Here I will talk about how to set up the environment </p>
+        <Accordion title="ENV">
+          <p>NVM</p>
+          <p>Node.js</p>
+          <p>Python</p>
+          <p>Ruby</p>
+          <p>Rails</p>
+          <p>RVM</p>
+          <p>Sinatra</p>
+          <p>PostgreSQL</p>
+          <p>SQLite</p>
+          <p>Homebrew</p>
+          <p>Visual Studio Code</p>
+        <p>Bundler</p>
+        </Accordion>
       </section>
 
       <section>
@@ -57,7 +72,25 @@ function App() {
         </div>
       </section>
 
-      <section></section>
+      <section>
+        <h1>Database</h1>
+
+        <div>
+          <h1>SQL</h1>
+          <p>talking about SQL here blah blah blah</p>
+        </div>
+
+        <div>
+          <h1>SQLite</h1>
+          <p>talking about SQLite here blah blah blah</p>
+        </div>
+
+        <div>
+          <h1>PostgreSQL</h1>
+          <p>talking about PostgreSQL here blah blah blah</p>
+        </div>
+
+      </section>
 
     </div>
   )

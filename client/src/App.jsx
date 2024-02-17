@@ -1,9 +1,6 @@
 import './App.css'
 // import { Route, Routes } from 'react-router-dom'
-// import Home from './Home'
-// import Header from './Header'
-// import Environment from './Environment'
-// import Languages from './Languages'
+
 import Accordion from './Accordion'
 
 function App() {
@@ -121,4 +118,3 @@ function App() {
 export default App
 
 
-// change all sections to divs when finished

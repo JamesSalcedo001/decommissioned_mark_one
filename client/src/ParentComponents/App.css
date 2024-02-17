@@ -26,5 +26,17 @@ button {
 }
 
 b {
-  color:rgb(24, 123, 209);
+  color: rgb(24, 123, 209);
+  font-size: x-large;
+}
+
+a {
+  text-decoration:underline;
+  color: rgb(24, 123, 209);
+}
+
+div {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
 }

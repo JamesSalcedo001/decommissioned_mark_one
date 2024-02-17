@@ -17,12 +17,14 @@ section {
 
 button {
   margin-inline: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: 1px solid rgb(234, 234, 242);
-  padding: 1em;
-  min-width: 110px;
+  padding: 0.5em;
+  min-width: 90px;
   background-color: rgb(33, 32, 42);
   color: whitesmoke;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 2vh;
 }
 
 b {
@@ -39,4 +41,33 @@ div {
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
+}
+
+
+.copy-container {
+  /* position: relative; */
+  /* display: inline-block; */
+  background-color: black;
+  border-radius: 1rem;
+  width: 90%;
+  height: 7rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+/* .copy-button {
+  transition: transform 0.2s ease-in-out;
+  /* margin-left: 10px; */
+ */
+
+  button:active {
+  transform: scale(0.8);
+}
+
+.copy-container code {
+  color: rgb(3, 184, 18);
+}
+
+.copy-container pre {
+  margin: 0;
 }

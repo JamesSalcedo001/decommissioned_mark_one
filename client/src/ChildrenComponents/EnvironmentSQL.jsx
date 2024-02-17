@@ -1,3 +1,6 @@
+import CopyCode from "../ParentComponents/CopyCode";
+
+
 const EnvironmentSQL = () => {
     return (
         <div>
@@ -7,7 +10,11 @@ const EnvironmentSQL = () => {
             <div>
                 <h1>PostgreSQL</h1>
                 <a href="https://www.postgresql.org/download/macosx/">PostgreSQL Site</a>
-                <p>process: navigate to terminal, run the command <b>brew install postgresql</b> using Homebrew, and then to start postgresql, run the command <b>brew services start postgresql</b></p>
+                <p>process: navigate to terminal, run the command: </p> 
+                <CopyCode code="brew install postgresql" /> 
+                <p> and then to start postgresql, run the command <b>brew services start postgresql</b></p>
+                
+
             </div>
             <div>
                 <h1>SQLite</h1>
@@ -19,3 +26,5 @@ const EnvironmentSQL = () => {
 } 
 
 export default EnvironmentSQL;
+
+

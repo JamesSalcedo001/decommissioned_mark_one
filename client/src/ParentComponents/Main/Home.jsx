@@ -5,3 +5,15 @@ const Home = () => {
 }
 
 export default Home;
+
+
+
+
+// purpose of site
+
+// topics covered 
+
+// about creator 
+
+
+

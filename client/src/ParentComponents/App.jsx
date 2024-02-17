@@ -7,11 +7,7 @@ function App() {
 
   return (
     <div>
-      <section>
-        <h1>Home Section</h1>
-        <p> Here I will go over purpose of site, about the creator etc </p>
-      </section>
-
+    
       <section>
         <h1>Environment Section</h1>
         <p> Here I will talk about how to set up the environment </p>

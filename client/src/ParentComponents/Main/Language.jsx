@@ -1,10 +1,10 @@
-const Languages = () => {
+const Language = () => {
     return (
         <div>
             <h1>Language Setup Here</h1>
 
             <section>
-                <h1>Languages Section</h1>
+                <h1>Language Section</h1>
 
                 <div>
                 <h1>Ruby section</h1>
@@ -31,4 +31,4 @@ const Languages = () => {
     )
 }
 
-export default Languages;
+export default Language;

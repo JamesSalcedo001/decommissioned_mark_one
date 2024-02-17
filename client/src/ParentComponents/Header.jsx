@@ -12,11 +12,11 @@ const Header = () => {
             <NavLink to="/languages">
                 <button>Languages</button>
             </NavLink>
+            <NavLink to="/databases">
+                <button>Databases</button>
+            </NavLink>
             <NavLink to="/frameworks">
                 <button>Frameworks</button>
-            </NavLink>
-            <NavLink to="/database">
-                <button>Databases</button>
             </NavLink>
         </div>
     )

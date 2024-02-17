@@ -3,19 +3,19 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div>
-            <NavLink to="/">
+            <NavLink className="header-nav" to="/">
                 <button>Home</button>
             </NavLink>
-            <NavLink to="/environment">
+            <NavLink className="header-nav" to="/environment">
                 <button>Environment</button>
             </NavLink>
-            <NavLink to="/languages">
+            <NavLink className="header-nav" to="/languages">
                 <button>Languages</button>
             </NavLink>
-            <NavLink to="/databases">
+            <NavLink className="header-nav" to="/databases">
                 <button>Databases</button>
             </NavLink>
-            <NavLink to="/frameworks">
+            <NavLink className="header-nav" to="/frameworks">
                 <button>Frameworks</button>
             </NavLink>
         </div>

@@ -12,14 +12,15 @@ section {
   margin-top: 2vh;
   border-radius: 3em;
   padding: 1em;
+  min-height: 30rem;
 }
 
 button {
   margin-inline: 1rem;
   border-radius: 1rem;
-  border: 1px solid blue;
+  border: 1px solid rgb(234, 234, 242);
   padding: 1em;
   min-width: 110px;
-  background-color: rgb(24, 123, 209);
+  background-color: rgb(33, 32, 42);
   color: whitesmoke;
 }

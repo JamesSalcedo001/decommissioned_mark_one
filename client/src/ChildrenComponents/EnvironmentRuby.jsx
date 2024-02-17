@@ -6,7 +6,6 @@ const EnvironmentRuby = () => {
             <p>Ruby</p>
             <p>Rails</p>
             <p>RVM</p>
-            <p>Sinatra</p>
         </div>
     )
 } 

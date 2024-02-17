@@ -1,4 +1,4 @@
-import screenshot3 from "/Users/jamessalcedo/Development/code/portfolio/salcedo_developers_guide/client/src/Images/Screen Shot 2024-02-17 at 12.56.27 AM.png"
+import screenshot3 from "../Images/Screen Shot 2024-02-17 at 12.56.27 AM.png"
 
 const EnvironmentPython = () => {
     return (

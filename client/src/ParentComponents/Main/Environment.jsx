@@ -1,5 +1,4 @@
-import Accordion from './Accordion'
-
+import Accordion from "../Accordion";
 
 const Environment = () => {
     return (

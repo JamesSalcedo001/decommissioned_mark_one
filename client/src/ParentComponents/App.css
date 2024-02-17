@@ -13,3 +13,13 @@ section {
   border-radius: 3em;
   padding: 1em;
 }
+
+button {
+  margin-inline: 1rem;
+  border-radius: 1rem;
+  border: 1px solid blue;
+  padding: 1em;
+  min-width: 110px;
+  background-color: rgb(24, 123, 209);
+  color: whitesmoke;
+}

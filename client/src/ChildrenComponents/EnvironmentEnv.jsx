@@ -7,7 +7,7 @@ const EnvironmentEnv = () => {
             <div>
                 <h1>Homebrew</h1>
                 <a href="https://brew.sh/">Homebrew Site</a>
-                <p>process: go to site, run command in terminal. To find the terminal, simply use <b>'Command Spacebar', type in 'Terminal' </b></p>
+                <p>process: go to site, run command in terminal. To find the terminal, simply use <b>CMD + Spacebar</b>, type in <b>Terminal</b> </p>
             </div>
             <div>
                 <h1>Visual Studio Code</h1>

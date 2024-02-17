@@ -9,7 +9,7 @@ const Home = () => {
                 SQL, and Java!
             </p>
             <br/>
-            <p>In order, <strong>the recommended</strong> sequence for beginners goes as follows:</p>
+            <p>In order, the RECOMMENDED sequence for beginners goes as follows:</p>
             <br/>
                 <h3>Environment</h3>
                 <br/>

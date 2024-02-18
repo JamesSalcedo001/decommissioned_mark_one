@@ -1,18 +1,19 @@
-body {
+ body {
   background-color: rgb(33, 32, 42);
   color: whitesmoke;
   text-align: center;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 section {
   background-color: rgb(24, 123, 209);
-  margin-bottom: 3vh;
-  margin-top: 2vh;
+  margin: 2vh auto 3vh;
   border-radius: 3em;
   padding: 1em;
   min-height: 30rem;
+  width: 80%;
+  max-width: 800px;
 }
 
 button {
@@ -25,6 +26,11 @@ button {
   color: whitesmoke;
   transition: transform 0.2s ease-in-out;
   margin-top: 2vh;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.8);
 }
 
 b {
@@ -45,23 +51,18 @@ div {
 
 
 .copy-container {
-  /* position: relative; */
-  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   border-radius: 1rem;
-  width: 90%;
-  height: 7rem;
+  width: 200%;
+  max-width: 600px;
+  height: auto;
   padding: 1rem;
   margin: auto;
-}
-
-/* .copy-button {
-  transition: transform 0.2s ease-in-out;
-  /* margin-left: 10px; */
- */
-
-  button:active {
-  transform: scale(0.8);
+  box-sizing: border-box;
 }
 
 .copy-container code {
@@ -69,5 +70,36 @@ div {
 }
 
 .copy-container pre {
+  white-space: pre-wrap;
+  word-break: break-word;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .copy-container {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .copy-container button {
+    padding: 0.5rem;
+  }
+
+
+  button {
+    margin-inline: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(234, 234, 242);
+    padding: 0.5em;
+    min-width: 90px;
+    background-color: rgb(33, 32, 42);
+    color: whitesmoke;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 2vh;
+    cursor: pointer;
+  }
+  
+  button:active {
+    transform: scale(0.8);
+  }
+} 

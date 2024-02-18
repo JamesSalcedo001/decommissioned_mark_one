@@ -1,18 +1,30 @@
+import CopyCode from "../ParentComponents/CopyCode";
+
 const EnvironmentNode = () => {
     return (
         <div>
              <br/>
-             <h1>Node Section: I would like to specify this is for MacOS currently. I will update for Windows as well in the future</h1>
+             <h3>Node Section: MacOS</h3>
              <br/>
              <div>
+                <br/>
                  <p>NVM</p>
+                 <br/>
                  <a href="https://github.com/nvm-sh/nvm">Node Version Manager Site</a>
+                 <br/>
                  <p>process: follow directions on site using the terminal</p>
+                 <br/>
              </div>
              <div>
+             <br/>
                  <p>Node.js</p>
+                 <br/>
                  <a href="https://nodejs.org/en">Node.js Site</a>
-                 <p>process: once you have downloaded NVM, simply run the command <b>nvm install node</b> in your terminal</p>
+                 <br/>
+                 <p>process: once you have downloaded NVM, simply run this command in your terminal</p>
+                 <br/>
+                 <CopyCode code="nvm install node"/>
+                 <br/>
              </div>
          </div>
     )

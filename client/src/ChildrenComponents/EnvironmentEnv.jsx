@@ -2,17 +2,25 @@ const EnvironmentEnv = () => {
     return (
         <div>
             <br/>
-            <h1>Env Section: I would like to specify this is for MacOS currently. I will update for Windows as well in the future</h1>
+            <h3>Env Section: MacOS</h3>
             <br/>
             <div>
-                <h1>Homebrew</h1>
+            <br/>
+                <h3>Homebrew</h3>
+                <br/>
                 <a href="https://brew.sh/">Homebrew Site</a>
-                <p>process: go to site, run command in terminal. To find the terminal, simply use <b>CMD + Spacebar</b>, type in <b>Terminal</b> </p>
+                <br/>
+                <p>process: go to site, run command in terminal. To find the terminal, simply use <b>Command + Spacebar</b>, type in the word: <b>Terminal</b> </p>
+                <br/>
             </div>
             <div>
-                <h1>Visual Studio Code</h1>
+            <br/>
+                <h3>Visual Studio Code</h3>
+                <br/>
                 <a href="https://code.visualstudio.com/">VSCode Site</a>
+                <br/>
                 <p>process: click file for your computer model, follow download process</p>
+                <br/>
             </div>
         </div>
     )

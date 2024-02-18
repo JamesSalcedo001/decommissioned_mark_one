@@ -24,18 +24,18 @@ button {
   min-width: 90px;
   background-color: rgb(33, 32, 42);
   color: whitesmoke;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.07s ease-in-out;
   margin-top: 2vh;
   cursor: pointer;
 }
 
 button:active {
-  transform: scale(0.8);
+  transform: scale(0.7);
 }
 
 b {
   color: rgb(24, 123, 209);
-  font-size: x-large;
+  font-size: large;
 }
 
 a {
@@ -99,12 +99,12 @@ div {
     min-width: 90px;
     background-color: rgb(33, 32, 42);
     color: whitesmoke;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.07s ease-in-out;
     margin-top: 2vh;
     cursor: pointer;
   }
   
   button:active {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 } 

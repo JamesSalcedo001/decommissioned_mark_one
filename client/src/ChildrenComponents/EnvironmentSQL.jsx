@@ -1,25 +1,41 @@
 import CopyCode from "../ParentComponents/CopyCode";
 
+const installPG = "brew install postgresql"
+const startPG = "brew services start postgresql"
+const installSQLite = "brew install sqlite"
+
 
 const EnvironmentSQL = () => {
     return (
         <div>
             <br/>
-            <h1>SQL Section: I would like to specify this is for MacOS currently. I will update for Windows as well in the future</h1>
+            <h3>SQL Section: MacOS</h3>
             <br/>
             <div>
-                <h1>PostgreSQL</h1>
+                <h3>PostgreSQL</h3>
+                <br/>
                 <a href="https://www.postgresql.org/download/macosx/">PostgreSQL Site</a>
+                <br/>
                 <p>process: navigate to terminal, run the command: </p> 
-                <CopyCode code="brew install postgresql" /> 
-                <p> and then to start postgresql, run the command <b>brew services start postgresql</b></p>
-                
-
+                <br/>
+                <CopyCode code={installPG} /> 
+                <br/>
+                <p> and then to start postgresql, run the command:</p>
+                <br/>
+                <CopyCode code={startPG}/>
+                <br/>
             </div>
             <div>
-                <h1>SQLite</h1>
+                <h3>SQLite</h3>
+                <br/>
                 <a href="https://www.sqlite.org/download.html">SQLite Site</a>
-                <p>process: SQLite does come with macOS, but to install the latest version, run the command <b>brew install sqlite</b> in the terminal using Homebrew</p>
+                <br/>
+                <p>process: SQLite does come with macOS, but to install the latest version, run the command:</p>
+                <br/>
+                <CopyCode code={installSQLite}/>
+                <br/>
+                <p>in the terminal using Homebrew</p>
+                <br/>
             </div>
         </div>
     )

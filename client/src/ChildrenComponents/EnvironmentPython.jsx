@@ -15,7 +15,7 @@ const EnvironmentPython = () => {
     return (
         <div>
             <br/>
-                <h3>Python Section: I would like to specify this is for MacOS currently</h3>
+                <h3>Python Section: MacOS</h3>
              <br/>
                  <a href="https://www.python.org/downloads/macos/">Python Site</a>
                  <br/>

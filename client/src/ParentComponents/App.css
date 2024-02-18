@@ -63,6 +63,7 @@ div {
   padding: 1rem;
   margin: auto;
   box-sizing: border-box;
+  overflow-x: auto;
 }
 
 .copy-container code {
@@ -72,7 +73,10 @@ div {
 .copy-container pre {
   white-space: pre-wrap;
   word-break: break-word;
-  margin: 0;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.2;
 }
 
 @media (max-width: 768px) {

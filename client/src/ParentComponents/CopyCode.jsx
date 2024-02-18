@@ -1,7 +1,6 @@
 const CopyCode = ({ code }) => {
     const clipBoard = () => {
         navigator.clipboard.writeText(code).then(() => {
-            // alert("copied!")
         }, (err) => {
             console.error("Could not copy", err)
         })
